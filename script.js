@@ -118,10 +118,10 @@ class CryptoPortfolio {
         priceElem.textContent = `Prix : ${this.prices[sym].toFixed(2)} €`;
         priceElem.className = this.oldColors[sym] || "price-neutral";
       } else if (this.prices[sym] > this.oldPrices[sym]) {
-        priceElem.textContent = `Prix : ${this.prices[sym].toFixed(2)} € ↑`;
+        priceElem.textContent = `Prix : ${this.prices[sym].toFixed(2)} €`;
         priceElem.className = "price-up";
       } else {
-        priceElem.textContent = `Prix : ${this.prices[sym].toFixed(2)} € ↓`;
+        priceElem.textContent = `Prix : ${this.prices[sym].toFixed(2)} €`;
         priceElem.className = "price-down";
       }
 
