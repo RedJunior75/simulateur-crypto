@@ -43,3 +43,8 @@ Votre portefeuille est sauvegardé dans le navigateur grâce à `localStorage`.
 ## Captures d'écran
 Vue de l'application sous Chrome
 ![Vue de l'application sous Chrome](images/screenshot.png)
+
+## Avertissements
+
+L'API coingecko limite l'utilisation de la version gratuite de son API. Elle est limitée à 10 000 appels par mois.
+Vous pouvez consulter la [documentation officielle](https://www.coingecko.com/fr/api/pricing).
