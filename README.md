@@ -15,7 +15,7 @@ Vous pouvez suivre votre solde, acheter et vendre plusieurs cryptos avec des pri
  * Couleur précédente conservée si le prix est en attente
 * Possibilité de réinitialiser votre portefeuille.
 * Vos données sont sauvegardées localement grâce à `localStorage`, pour que vous retrouviez votre portefeuille entre vos sessions.
-
+* Vous pouvez modifier le montant initial en euro en remplaçant `this.balance = 1000;` ( ligne 2 de`script.js` )  par la valeur souhaitée.
 ## Cryptomonnaies disponibles
 
 * Bitcoin (BTC)
